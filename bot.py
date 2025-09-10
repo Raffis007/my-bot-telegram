@@ -7,11 +7,11 @@ import random
 
 # Token do seu bot (obtido com @BotFather)
 import os
-BOT_TOKEN = os.getenv('BOT_TOKEN', 'SEU_TOKEN_AQUI')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '8285662565:AAEnMLP3zC4wAh8N3afeM674jU60lmZR4cE')
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Dados para PIX
-PIX_KEY = "12345678901"  # Sua chave PIX
+PIX_KEY = "6b49c28d-1d21-445e-9c5b-ef5628ce511a"  # Sua chave PIX
 NOME_BENEFICIARIO = "Seu Nome"
 
 # Pacotes de Mídias
@@ -32,7 +32,7 @@ PACOTES = {
     },
     "3": {
         "nome": "5000 Mídias",
-        "preco": 40.00,
+        "preco": 45.00,
         "descricao": "Pacote com 5000 mídias de entretenimento",
         "emoji": "📱📱📱",
         "tem_grupo": False
