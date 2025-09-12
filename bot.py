@@ -10,9 +10,10 @@ from threading import Thread
 # Token do seu bot (obtido com @BotFather)
 import os
 
-BOT_TOKEN = os.getenv('BOT_TOKEN',
-                      '8285662565:AAEnMLP3zC4wAh8N3afeM674jU60lmZR4cE')
+# pega o token da variável de ambiente BOT_TOKEN
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 bot = telebot.TeleBot(BOT_TOKEN)
+
 
 # Dados para PIX
 PIX_KEY = "6b49c28d-1d21-445e-9c5b-ef5628ce511a"  # Chave PIX principal
